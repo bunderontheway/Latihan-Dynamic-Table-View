@@ -1,0 +1,665 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		533EB1AF280E604A003EC8E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1AE280E604A003EC8E9 /* AppDelegate.swift */; };
+		533EB1B1280E604A003EC8E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1B0280E604A003EC8E9 /* SceneDelegate.swift */; };
+		533EB1B3280E604A003EC8E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1B2280E604A003EC8E9 /* ViewController.swift */; };
+		533EB1B6280E604A003EC8E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533EB1B4280E604A003EC8E9 /* Main.storyboard */; };
+		533EB1B8280E604C003EC8E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533EB1B7280E604C003EC8E9 /* Assets.xcassets */; };
+		533EB1BB280E604C003EC8E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533EB1B9280E604C003EC8E9 /* LaunchScreen.storyboard */; };
+		533EB1C6280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1C5280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewTests.swift */; };
+		533EB1D0280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1CF280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITests.swift */; };
+		533EB1D2280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1D1280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift */; };
+		533EB1E0280E6358003EC8E9 /* HeroTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1DE280E6358003EC8E9 /* HeroTableViewCell.swift */; };
+		533EB1E1280E6358003EC8E9 /* HeroTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533EB1DF280E6358003EC8E9 /* HeroTableViewCell.xib */; };
+		533EB1E7280E6F63003EC8E9 /* Heroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1E6280E6F63003EC8E9 /* Heroes.swift */; };
+		533EB1E9280E6F77003EC8E9 /* DummyHeroes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1E8280E6F77003EC8E9 /* DummyHeroes.swift */; };
+		533EB1EC280E9909003EC8E9 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 533EB1EA280E9909003EC8E9 /* DetailViewController.swift */; };
+		533EB1ED280E9909003EC8E9 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 533EB1EB280E9909003EC8E9 /* DetailViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		533EB1C2280E604C003EC8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533EB1A3280E604A003EC8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533EB1AA280E604A003EC8E9;
+			remoteInfo = "Latihan-Dynamic-Table-View";
+		};
+		533EB1CC280E604C003EC8E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 533EB1A3280E604A003EC8E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 533EB1AA280E604A003EC8E9;
+			remoteInfo = "Latihan-Dynamic-Table-View";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		533EB1AB280E604A003EC8E9 /* Latihan-Dynamic-Table-View.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Latihan-Dynamic-Table-View.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533EB1AE280E604A003EC8E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		533EB1B0280E604A003EC8E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		533EB1B2280E604A003EC8E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		533EB1B5280E604A003EC8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		533EB1B7280E604C003EC8E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		533EB1BA280E604C003EC8E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		533EB1BC280E604C003EC8E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		533EB1C1280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Latihan-Dynamic-Table-ViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533EB1C5280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latihan_Dynamic_Table_ViewTests.swift; sourceTree = "<group>"; };
+		533EB1CB280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Latihan-Dynamic-Table-ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		533EB1CF280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latihan_Dynamic_Table_ViewUITests.swift; sourceTree = "<group>"; };
+		533EB1D1280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		533EB1DE280E6358003EC8E9 /* HeroTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroTableViewCell.swift; sourceTree = "<group>"; };
+		533EB1DF280E6358003EC8E9 /* HeroTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeroTableViewCell.xib; sourceTree = "<group>"; };
+		533EB1E6280E6F63003EC8E9 /* Heroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heroes.swift; sourceTree = "<group>"; };
+		533EB1E8280E6F77003EC8E9 /* DummyHeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyHeroes.swift; sourceTree = "<group>"; };
+		533EB1EA280E9909003EC8E9 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		533EB1EB280E9909003EC8E9 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		533EB1A8280E604A003EC8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1BE280E604C003EC8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1C8280E604C003EC8E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		533EB1A2280E604A003EC8E9 = {
+			isa = PBXGroup;
+			children = (
+				533EB1AD280E604A003EC8E9 /* Latihan-Dynamic-Table-View */,
+				533EB1C4280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests */,
+				533EB1CE280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests */,
+				533EB1AC280E604A003EC8E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		533EB1AC280E604A003EC8E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1AB280E604A003EC8E9 /* Latihan-Dynamic-Table-View.app */,
+				533EB1C1280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests.xctest */,
+				533EB1CB280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		533EB1AD280E604A003EC8E9 /* Latihan-Dynamic-Table-View */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1E2280E6E67003EC8E9 /* Base App */,
+				533EB1E3280E6E77003EC8E9 /* Model */,
+				533EB1E4280E6E7F003EC8E9 /* Controller */,
+				533EB1E5280E6E87003EC8E9 /* View */,
+				533EB1B7280E604C003EC8E9 /* Assets.xcassets */,
+				533EB1BC280E604C003EC8E9 /* Info.plist */,
+			);
+			path = "Latihan-Dynamic-Table-View";
+			sourceTree = "<group>";
+		};
+		533EB1C4280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1C5280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewTests.swift */,
+			);
+			path = "Latihan-Dynamic-Table-ViewTests";
+			sourceTree = "<group>";
+		};
+		533EB1CE280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1CF280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITests.swift */,
+				533EB1D1280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift */,
+			);
+			path = "Latihan-Dynamic-Table-ViewUITests";
+			sourceTree = "<group>";
+		};
+		533EB1E2280E6E67003EC8E9 /* Base App */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1AE280E604A003EC8E9 /* AppDelegate.swift */,
+				533EB1B0280E604A003EC8E9 /* SceneDelegate.swift */,
+			);
+			path = "Base App";
+			sourceTree = "<group>";
+		};
+		533EB1E3280E6E77003EC8E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1E6280E6F63003EC8E9 /* Heroes.swift */,
+				533EB1E8280E6F77003EC8E9 /* DummyHeroes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		533EB1E4280E6E7F003EC8E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1B2280E604A003EC8E9 /* ViewController.swift */,
+				533EB1DE280E6358003EC8E9 /* HeroTableViewCell.swift */,
+				533EB1EA280E9909003EC8E9 /* DetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		533EB1E5280E6E87003EC8E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				533EB1B4280E604A003EC8E9 /* Main.storyboard */,
+				533EB1B9280E604C003EC8E9 /* LaunchScreen.storyboard */,
+				533EB1DF280E6358003EC8E9 /* HeroTableViewCell.xib */,
+				533EB1EB280E9909003EC8E9 /* DetailViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		533EB1AA280E604A003EC8E9 /* Latihan-Dynamic-Table-View */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533EB1D5280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-View" */;
+			buildPhases = (
+				533EB1A7280E604A003EC8E9 /* Sources */,
+				533EB1A8280E604A003EC8E9 /* Frameworks */,
+				533EB1A9280E604A003EC8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Latihan-Dynamic-Table-View";
+			productName = "Latihan-Dynamic-Table-View";
+			productReference = 533EB1AB280E604A003EC8E9 /* Latihan-Dynamic-Table-View.app */;
+			productType = "com.apple.product-type.application";
+		};
+		533EB1C0280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533EB1D8280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-ViewTests" */;
+			buildPhases = (
+				533EB1BD280E604C003EC8E9 /* Sources */,
+				533EB1BE280E604C003EC8E9 /* Frameworks */,
+				533EB1BF280E604C003EC8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533EB1C3280E604C003EC8E9 /* PBXTargetDependency */,
+			);
+			name = "Latihan-Dynamic-Table-ViewTests";
+			productName = "Latihan-Dynamic-Table-ViewTests";
+			productReference = 533EB1C1280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		533EB1CA280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 533EB1DB280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-ViewUITests" */;
+			buildPhases = (
+				533EB1C7280E604C003EC8E9 /* Sources */,
+				533EB1C8280E604C003EC8E9 /* Frameworks */,
+				533EB1C9280E604C003EC8E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				533EB1CD280E604C003EC8E9 /* PBXTargetDependency */,
+			);
+			name = "Latihan-Dynamic-Table-ViewUITests";
+			productName = "Latihan-Dynamic-Table-ViewUITests";
+			productReference = 533EB1CB280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		533EB1A3280E604A003EC8E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					533EB1AA280E604A003EC8E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					533EB1C0280E604C003EC8E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 533EB1AA280E604A003EC8E9;
+					};
+					533EB1CA280E604C003EC8E9 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 533EB1AA280E604A003EC8E9;
+					};
+				};
+			};
+			buildConfigurationList = 533EB1A6280E604A003EC8E9 /* Build configuration list for PBXProject "Latihan-Dynamic-Table-View" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 533EB1A2280E604A003EC8E9;
+			productRefGroup = 533EB1AC280E604A003EC8E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				533EB1AA280E604A003EC8E9 /* Latihan-Dynamic-Table-View */,
+				533EB1C0280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewTests */,
+				533EB1CA280E604C003EC8E9 /* Latihan-Dynamic-Table-ViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		533EB1A9280E604A003EC8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EB1BB280E604C003EC8E9 /* LaunchScreen.storyboard in Resources */,
+				533EB1B8280E604C003EC8E9 /* Assets.xcassets in Resources */,
+				533EB1ED280E9909003EC8E9 /* DetailViewController.xib in Resources */,
+				533EB1B6280E604A003EC8E9 /* Main.storyboard in Resources */,
+				533EB1E1280E6358003EC8E9 /* HeroTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1BF280E604C003EC8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1C9280E604C003EC8E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		533EB1A7280E604A003EC8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EB1E9280E6F77003EC8E9 /* DummyHeroes.swift in Sources */,
+				533EB1B3280E604A003EC8E9 /* ViewController.swift in Sources */,
+				533EB1AF280E604A003EC8E9 /* AppDelegate.swift in Sources */,
+				533EB1B1280E604A003EC8E9 /* SceneDelegate.swift in Sources */,
+				533EB1E7280E6F63003EC8E9 /* Heroes.swift in Sources */,
+				533EB1E0280E6358003EC8E9 /* HeroTableViewCell.swift in Sources */,
+				533EB1EC280E9909003EC8E9 /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1BD280E604C003EC8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EB1C6280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		533EB1C7280E604C003EC8E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533EB1D2280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITestsLaunchTests.swift in Sources */,
+				533EB1D0280E604C003EC8E9 /* Latihan_Dynamic_Table_ViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		533EB1C3280E604C003EC8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533EB1AA280E604A003EC8E9 /* Latihan-Dynamic-Table-View */;
+			targetProxy = 533EB1C2280E604C003EC8E9 /* PBXContainerItemProxy */;
+		};
+		533EB1CD280E604C003EC8E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 533EB1AA280E604A003EC8E9 /* Latihan-Dynamic-Table-View */;
+			targetProxy = 533EB1CC280E604C003EC8E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		533EB1B4280E604A003EC8E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533EB1B5280E604A003EC8E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		533EB1B9280E604C003EC8E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				533EB1BA280E604C003EC8E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		533EB1D3280E604C003EC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		533EB1D4280E604C003EC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		533EB1D6280E604C003EC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan-Dynamic-Table-View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		533EB1D7280E604C003EC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Latihan-Dynamic-Table-View/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-View";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		533EB1D9280E604C003EC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latihan-Dynamic-Table-View.app/Latihan-Dynamic-Table-View";
+			};
+			name = Debug;
+		};
+		533EB1DA280E604C003EC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-ViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Latihan-Dynamic-Table-View.app/Latihan-Dynamic-Table-View";
+			};
+			name = Release;
+		};
+		533EB1DC280E604C003EC8E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Latihan-Dynamic-Table-View";
+			};
+			name = Debug;
+		};
+		533EB1DD280E604C003EC8E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L3CC4X6977;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Start.Latihan-Dynamic-Table-ViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Latihan-Dynamic-Table-View";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		533EB1A6280E604A003EC8E9 /* Build configuration list for PBXProject "Latihan-Dynamic-Table-View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533EB1D3280E604C003EC8E9 /* Debug */,
+				533EB1D4280E604C003EC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533EB1D5280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533EB1D6280E604C003EC8E9 /* Debug */,
+				533EB1D7280E604C003EC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533EB1D8280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-ViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533EB1D9280E604C003EC8E9 /* Debug */,
+				533EB1DA280E604C003EC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		533EB1DB280E604C003EC8E9 /* Build configuration list for PBXNativeTarget "Latihan-Dynamic-Table-ViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				533EB1DC280E604C003EC8E9 /* Debug */,
+				533EB1DD280E604C003EC8E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 533EB1A3280E604A003EC8E9 /* Project object */;
+}
